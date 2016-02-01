@@ -22,7 +22,8 @@ set pumheight=10
 set showmatch
 set matchtime=1
 
-
+" ~/.vim/bundleにgitから入れてからこれを書く
+"Plugin 'mattn/emmet-vim'
 
 "ここからプラグイン管理
 set nocompatible
