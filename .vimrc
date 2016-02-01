@@ -22,8 +22,7 @@ set pumheight=10
 set showmatch
 set matchtime=1
 
-" ~/.vim/bundleにgitから入れてからこれを書く
-"Plugin 'mattn/emmet-vim'
+
 
 "ここからプラグイン管理
 set nocompatible
@@ -61,7 +60,11 @@ filetype plugin indent on
 "Gitから追加するプラグイン
 "Emmet
 "https://github.com/mattn/emmet-vim
+" ~/.vim/bundleにgitから入れてからコメントアウトして:PluginInstall
+"Plugin 'mattn/emmet-vim'
+
 "Molokai
 "https://github.com/tomasr/molokai
+
 "インデント見える化
 "https://github.com/nathanaelkane/vim-indent-guides
