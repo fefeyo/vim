@@ -46,10 +46,14 @@ NeoBundle 'itchyny/lightline.vim'
 NeoBundle 'Shougo/neocomplete'
 NeoBundle 'Shougo/neosnippet'
 NeoBundle 'Shougo/neosnippet-snippets'
+"Emmet
+NeoBundle 'mattn/emmet-vim'
+"自動括弧閉じ
+NeoBundle 'Townk/vim-autoclose'
 
 
-":NeoBundleFetchInstall  で導入
-":NeoBundleFetchUpdate  でアップデート
+":NeoBundleInstall  で導入
+":NeoBundleUpdate  でアップデート
 
 
 call neobundle#end()
@@ -58,10 +62,6 @@ filetype plugin indent on
 
 
 "Gitから追加するプラグイン
-"Emmet
-"https://github.com/mattn/emmet-vim
-" ~/.vim/bundleにgitから入れてからコメントアウトして:PluginInstall
-"Plugin 'mattn/emmet-vim'
 
 "Molokai
 "https://github.com/tomasr/molokai
